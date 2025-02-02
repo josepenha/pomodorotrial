@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.timer-container {
+    margin: 20px auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#timerDisplay {
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.pause-btn {
+    background-color: #FF5733;
+}
+
+.pause-btn:hover {
+    background-color: #6dda13;
+}
