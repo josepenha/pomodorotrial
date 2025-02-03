@@ -1,0 +1,109 @@
+PS C:\xampp\htdocs\neto\pomodoro> git init
+Initialized empty Git repository in C:/xampp/htdocs/neto/pomodoro/.git/
+PS C:\xampp\htdocs\neto\pomodoro> git add .
+PS C:\xampp\htdocs\neto\pomodoro> git commit -m trial01
+[master (root-commit) 80acf9c] trial01
+ 44 files changed, 781 insertions(+)
+ create mode 100644 template.html
+ create mode 100644 v10/config.php
+ create mode 100644 v10/index.php
+ create mode 100644 v10/pomodoro.sql
+ create mode 100644 v10/script.js
+ create mode 100644 v10/styles.css
+ create mode 100644 v10/templates/footer.php
+ create mode 100644 v10/templates/header.php
+ create mode 100644 v10/templates/menu.php
+ create mode 100644 v11/config.php
+ create mode 100644 v11/index.php
+ create mode 100644 v11/pomodoro.sql
+ create mode 100644 v11/script.js
+ create mode 100644 v11/styles.css
+ create mode 100644 v11/templates/footer.php
+ create mode 100644 v11/templates/header.php
+ create mode 100644 v11/templates/menu.php
+ create mode 100644 v12/config.php
+ create mode 100644 v12/index.php
+ create mode 100644 v12/pomodoro.sql
+ create mode 100644 v12/script.js
+ create mode 100644 v12/styles.css
+ create mode 100644 v12/templates/footer.php
+ create mode 100644 v12/templates/header.php
+ create mode 100644 v12/templates/menu.php
+ create mode 100644 v13/assets/alerta.mp3
+ create mode 100644 v13/config.php
+ create mode 100644 v13/index.php
+ create mode 100644 v13/pomodoro.sql
+ create mode 100644 v13/script.js
+ create mode 100644 v13/styles.css
+ create mode 100644 v13/templates/footer.php
+ create mode 100644 v13/templates/header.php
+ create mode 100644 v13/templates/menu.php
+ create mode 100644 v14/assets/alerta.mp3
+ create mode 100644 v14/config.php
+ create mode 100644 v14/index.html
+ create mode 100644 v14/index3.php
+ create mode 100644 v14/pomodoro.sql
+ create mode 100644 v14/script.js
+ create mode 100644 v14/styles.css
+ create mode 100644 v14/templates/footer.php
+ create mode 100644 v14/templates/header.php
+ create mode 100644 v14/templates/menu.php
+PS C:\xampp\htdocs\neto\pomodoro> git remote add origin https://github.com/josepenha/pomodorotrial.git
+PS C:\xampp\htdocs\neto\pomodoro> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/josepenha/pomodorotrial.git'
+PS C:\xampp\htdocs\neto\pomodoro> git branch
+* master
+PS C:\xampp\htdocs\neto\pomodoro> git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (25/25), 74.03 KiB | 14.81 MiB/s, done.
+Total 25 (delta 12), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/josepenha/pomodorotrial.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\xampp\htdocs\neto\pomodoro> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        v15/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\xampp\htdocs\neto\pomodoro> git add .
+PS C:\xampp\htdocs\neto\pomodoro> git commit -m "v1.0.2 - atualização da pasta v15"
+[master f604551] v1.0.2 - atualização da pasta v15
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 v15/teste.html
+PS C:\xampp\htdocs\neto\pomodoro> git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 333 bytes | 333.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/josepenha/pomodorotrial.git
+   80acf9c..f604551  master -> master
+PS C:\xampp\htdocs\neto\pomodoro> git log
+commit f604551c32c9e3deabbb679f4fccf33e20c574ed (HEAD -> master, origin/master)
+Author: JPENHA <dev@jpenha.com.br>
+Date:   Sun Feb 2 11:15:50 2025 -0300
+
+    v1.0.2 - atualização da pasta v15
+
+commit 80acf9cc354993765054aef950e817d22cb80a94
+Author: JPENHA <dev@jpenha.com.br>
+Date:   Sun Feb 2 09:22:43 2025 -0300
+
+    trial01
+PS C:\xampp\htdocs\neto\pomodoro> 
+ *  History restored 
+PS C:\xampp\htdocs\neto\pomodoro> 
+ *  History restored 
+PS C:\xampp\htdocs\neto\pomodoro>
